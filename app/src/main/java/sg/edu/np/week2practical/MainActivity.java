@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                     button.setText("Unfollow");
                     user1.followed = true;
                 } else {
-                    //If user followed
+                    //If has followed
                     button.setText("Follow");
                     user1.followed = false;
                 }
