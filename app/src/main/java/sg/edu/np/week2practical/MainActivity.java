@@ -29,10 +29,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.v(TAG, "Button Pressed!");
+                //If user has not followed
                 if (user1.followed == false) {
                     button.setText("Unfollow");
                     user1.followed = true;
                 } else {
+                    //If user followed
                     button.setText("Follow");
                     user1.followed = false;
                 }
